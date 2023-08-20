@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Bell 103 Host - Subscriber Loop Sheet")
+    (date "2023-08-20")
+    (rev "v1")
+    (company "Bruce MacKinnon")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -647,7 +654,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 19335fd7-36ba-4769-a2b4-4c45c6da59c1)
   )
-  (text "Subscriber Line" (at 100.33 68.58 0)
+  (text "Subscriber Loop " (at 100.33 68.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b9f8bca8-3b4c-4f9d-8387-69fff9999774)
   )

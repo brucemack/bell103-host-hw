@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Bell 103 Host - Modem Sheet")
+    (date "2023-08-20")
+    (rev "v1")
+    (company "Bruce MacKinnon")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -915,6 +922,15 @@
   (wire (pts (xy 119.38 128.27) (xy 121.92 128.27))
     (stroke (width 0) (type default))
     (uuid ff5dc870-e1e7-48f4-9d79-527b93b64ee8)
+  )
+
+  (text "Connection to Loop Transformer" (at 148.59 123.19 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8498478b-4178-4a7c-a179-6af4f1d610f2)
+  )
+  (text "Control Lines" (at 161.29 53.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eadde3cf-6345-4b55-a3cd-03f18e09e205)
   )
 
   (global_label "RXAN" (shape input) (at 113.03 90.17 180) (fields_autoplaced)
